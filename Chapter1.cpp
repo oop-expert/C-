@@ -6,7 +6,6 @@ using namespace std;
 
 int main() 
 {
-    system("chcp 1251>nul");
  
     // »нициализаци€ генератора случайных чисел
     srand(2);
@@ -33,6 +32,5 @@ int main()
     }
     cout << endl;
 
-    system("pause>nul");
     return 0;
 }
